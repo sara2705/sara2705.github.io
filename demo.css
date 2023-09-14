@@ -215,7 +215,7 @@ h1{
         padding-right: 37px;
 }
 .section-6 .pad-item6{
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 /*Section 6 end-----------------------------------*/
@@ -223,7 +223,7 @@ h1{
 .section-7 {
     background-color:#58bbfc;
 }
-.section-7 .title-para ,h1{
+.title-para {
     text-align: center;
 }
 .section-7 .d-flex {
@@ -246,6 +246,58 @@ h1{
     padding-bottom: 100px;
 }
 /*Section 7 end-----------------------------------*/
+/*Section 8 start-----------------------------------*/
+.section-8{
+    background-image: linear-gradient(#ffbf00d5,#ffbf00d5),url(./pic/dr_Jenny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-8 .last-para{
+    padding-top: 231px;
+    margin-top: 0px;
+    font-size: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.section-8 .doc-name{
+    padding-top: 28px;
+    padding-bottom: 260px;
+    margin-bottom: 0px;
+}
+/*Section 8 end-----------------------------------*/
+/* footer section start---------------------------*/
+.footer-sec{
+    background-color: dimgrey;
+}
+.footer-left{
+    padding-top: 10px;
 
-
-
+    margin-bottom: 0px;
+}
+footer .footer-para{
+    margin-bottom: 0px;
+}
+.footer-sec .links li{
+    list-style: none;
+}
+.footer-sec .links a{
+    color: white;
+    text-decoration: none;
+}
+.footer-sec .left-align ul{
+    padding-left: 0px;
+}
+.footer-sec .left-align {
+    padding-left: 20px;
+    padding-right: 45px;
+}
+.footer-sec .left-align a{
+    font-size: 16px;
+}
+.d-flex.links.\.footer-left {
+    padding: 25px 50px;
+}
+p.footer-para {
+    padding-right: 208px;
+}
+/* footer section end---------------------------- */
