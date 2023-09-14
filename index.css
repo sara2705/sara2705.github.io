@@ -1,0 +1,251 @@
+body{
+    margin: 0px;
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.d-block{
+    display: block;
+    padding-top: 2px;;
+}
+h1{
+    padding-top: 50px;
+    font-size: 60px;
+    margin-top: 0px
+}
+.button-all{
+    background-color: rgb(255, 217, 0);
+    height: 50px;
+    width: 230px;
+    color: white;
+    border: none;
+    border-radius: 34px;
+    font-weight: bold;
+    font-size: 21px;
+}
+/*section1 start*/
+.section-1{
+    background-image: linear-gradient(#0b84d570,#0b84d570), url(./pic/banner_image.jpg);
+    padding-bottom: 70px;
+}
+/* main header start*/
+.main-header{
+    background-color: rgb(0 151 255 / 45%);
+    justify-content: space-between;
+    padding: 15px 45px;
+}
+.main-header .links{
+    list-style: none;
+}
+.main-header .links a{
+    color: white;
+    text-decoration: none;
+}
+.main-header .links{
+    align-items: center;
+}
+.main-header .links >li{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-header button .header-button{
+    width:34px;
+}
+.main-header button{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 25px;
+}.main-header .header-button img{
+    width:100%
+}
+/* main header end*/
+.section-1 .footer h1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+}
+.footer{
+    text-align: center;
+}
+
+.section-1 .footer p{
+    padding-bottom: 40px;
+}
+
+/*section1 end*/
+/*Section 2 start---------------------------------*/
+.section-2{
+    background-color:#0b84d5;
+    text-align: center;
+}
+.section-2 .d-flex img{
+    width: 250px;
+    height: 250px;
+}
+.section-2  h1{
+    padding-top: 50px;
+    font-size: 60px;
+    margin-top: 0px
+}
+.section-2 .section2-div
+{
+    padding-top:10px
+}
+.section-2 p{
+    padding-bottom: 50px;
+}
+.section-2 .d-flex div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Section 2 end-----------------------------------*/
+/*section 3 start---------------------------------*/
+.section-3{
+    text-align: center;
+    background-image: linear-gradient(#ff9113bc,#ff9113bc),url(./pic/pet_care_banner.png.jpg);
+}
+.section-3 .d-flex .circle-section3{
+    border: 10px solid white;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.section-3 .d-flex {
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.section-3 h2 {
+    margin: none;
+    padding-top: 20px;
+}
+/*Section 3 end-----------------------------------*/
+/*Section 4 start-----------------------------------*/
+.section-4{
+    background-color: #0b84d5;
+}
+.section-4 .align-section4{
+    padding: 100px;
+    text-align: left;
+}
+.section-4 .image-align img {
+    width: 100%;
+}
+
+.image-align {
+    width: 914px;
+    padding-top: 136px;
+    padding-right: 110px;
+}
+.section-4 .pad-item4 {
+    padding-bottom: 78px;
+}
+/*Section 4 end-----------------------------------*/
+/*Section 5 start-----------------------------------*/
+.section-5{
+    background-color: #58bbfc;
+}
+.section-5 .align-section5{
+    padding-left: 20px;
+    padding-top: 100px;
+    text-align: left;
+    padding-right: 76px;
+}
+.section-5 .image-align img {
+    width: 100%;
+}
+
+.section-5 .image-align {
+    width: 914px;
+    padding-top: 102px;
+    padding-left: 106px;
+}
+.section-5 .pad-item5 {
+    padding-bottom: 78px;
+}
+.section-5 .flex-dir{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.align-section5 {
+    padding-top: 100px;
+}
+/*Section 5 end-----------------------------------*/
+/*Section 6 start-----------------------------------*/
+.section-6{
+    text-align: center;
+    background-color: #0b84d5;
+}
+.section-6 .one .flex-2{
+    background-color:#ffc000;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 200px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.section-6 .one h2 {
+    padding-top: 25px;
+    color: #0b84d5;
+}
+.section-6 .one h3{
+    color: #0b84d5;
+}
+.section-6 .one p{
+    color: #0b84d5;
+    font-size: 20px;
+}
+.section-6 .bg-color{
+    background-color: white;
+    /* padding-left: 10px; */
+    border-radius: 5px;
+}
+.section-6 .one{
+        padding-left: 30px;
+        padding-right: 37px;
+}
+.section-6 .pad-item6{
+    padding-bottom: 20px;
+}
+
+/*Section 6 end-----------------------------------*/
+/*Section 7 start-----------------------------------*/
+.section-7 {
+    background-color:#58bbfc;
+}
+.section-7 .title-para ,h1{
+    text-align: center;
+}
+.section-7 .d-flex {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+
+.section-7 .align-left-para {
+    text-align: left;
+    font-weight: normal;
+}
+.section-7 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 38px;
+    padding-right: 23px;
+}
+.section-7 .bottom-pad{
+    padding-bottom: 100px;
+}
+/*Section 7 end-----------------------------------*/
+
+
+
