@@ -28,12 +28,6 @@ h1{
     font-weight: bold;
     font-size: 21px;
 }
-.button-all:hover{
-    transform: rotate(90deg);
-}
-.button-all{
-    transition: 2s;
-}
 /*section1 start*/
 .section-1{
     background-image: linear-gradient(#0b84d570,#0b84d570), url(./pic/banner_image.jpg);
