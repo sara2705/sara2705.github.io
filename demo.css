@@ -28,6 +28,12 @@ h1{
     font-weight: bold;
     font-size: 21px;
 }
+.button-all:hover{
+    transform: rotate(90deg);
+}
+.button-all{
+    transition: 2s;
+}
 /*section1 start*/
 .section-1{
     background-image: linear-gradient(#0b84d570,#0b84d570), url(./pic/banner_image.jpg);
@@ -299,5 +305,16 @@ footer .footer-para{
 }
 p.footer-para {
     padding-right: 208px;
+    padding-bottom: 19px;
+}
+.fa-brands{
+    width: 30px;
+    height: 30px;
+    font-size: 31px;
+    color: black;
+    border: 8px solid white;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
 }
 /* footer section end---------------------------- */
