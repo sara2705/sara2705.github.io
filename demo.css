@@ -34,6 +34,23 @@ h1{
     padding-bottom: 70px;
 }
 /* main header start*/
+@media (max-width:767px){
+.main-header{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding: 0px;
+    /* margin: -30px; */
+    /* overflow: auto; */
+}
+.header-button{
+    display:none
+}
+}
+.logo-container{
+    width:100px;
+    height: 90px;
+}
 .main-header{
     background-color: rgb(0 151 255 / 45%);
     justify-content: space-between;
@@ -85,6 +102,11 @@ h1{
     background-color:#0b84d5;
     text-align: center;
 }
+@media (max-width:767px){
+.section-2 >.d-flex{
+    flex-direction: column;
+}
+}
 .section-2 .d-flex img{
     width: 250px;
     height: 250px;
@@ -107,6 +129,15 @@ h1{
 }
 /*Section 2 end-----------------------------------*/
 /*section 3 start---------------------------------*/
+@media (max-width:767px){
+    .section-3>.d-flex{
+        flex-direction: column;
+        align-items:center;
+    }
+    .section-3 .circle-pad{padding-top: 33px;}
+    .section-3 .d-flex {
+    padding-top: 10px;}
+}
 .section-3{
     text-align: center;
     background-image: linear-gradient(#ff9113bc,#ff9113bc),url(./pic/pet_care_banner.png.jpg);
@@ -118,9 +149,13 @@ h1{
     border-radius: 50%;
 }
 .section-3 .d-flex {
-    justify-content: space-evenly;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 150px;
+    justify-content:center
+}
+.section-3 .circle-pad{
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .section-3 h2 {
     margin: none;
@@ -128,6 +163,11 @@ h1{
 }
 /*Section 3 end-----------------------------------*/
 /*Section 4 start-----------------------------------*/
+@media (max-width:767px){
+    .section-4>.d-flex{
+        flex-direction: column;
+    }
+}
 .section-4{
     background-color: #0b84d5;
 }
@@ -135,13 +175,13 @@ h1{
     padding: 100px;
     text-align: left;
 }
-.section-4 .image-align img {
+.section-4 .image-align > img {
     width: 100%;
 }
 
 .image-align {
-    width: 914px;
-    padding-top: 136px;
+    width: 870px;
+    padding-top: 73px;
     padding-right: 110px;
 }
 .section-4 .pad-item4 {
@@ -151,6 +191,15 @@ h1{
 /*Section 5 start-----------------------------------*/
 .section-5{
     background-color: #58bbfc;
+}
+@media (max-width:767px){
+    .section-6>.d-flex{
+        flex-direction: column;
+    }
+    
+    .section-5 .image-align >img {
+        width:100px;
+    }
 }
 .section-5 .align-section5{
     padding-left: 20px;
@@ -163,7 +212,7 @@ h1{
 }
 
 .section-5 .image-align {
-    width: 914px;
+    width: 882px;
     padding-top: 102px;
     padding-left: 106px;
 }
@@ -179,6 +228,11 @@ h1{
 }
 /*Section 5 end-----------------------------------*/
 /*Section 6 start-----------------------------------*/
+@media (max-width:767px){
+    .section-6 .pad-item6{
+        flex-direction: column;
+    }
+}
 .section-6{
     text-align: center;
     background-color: #0b84d5;
@@ -220,6 +274,12 @@ h1{
 
 /*Section 6 end-----------------------------------*/
 /*Section 7 start-----------------------------------*/
+@media(max-width:767px){
+    .section-7 .mob-view-align{
+        flex-direction: column;
+    }
+
+}
 .section-7 {
     background-color:#58bbfc;
 }
@@ -247,25 +307,37 @@ h1{
 }
 /*Section 7 end-----------------------------------*/
 /*Section 8 start-----------------------------------*/
+@media (max-width:767px){
+    .section-8 .last-para{
+        text-align: center;
+    }
+}
 .section-8{
     background-image: linear-gradient(#ffbf00d5,#ffbf00d5),url(./pic/dr_Jenny.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .section-8 .last-para{
-    padding-top: 231px;
-    margin-top: 0px;
+    padding-top: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 0px;
     font-size: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    text-align: center;
+    margin: 0px;
 }
 .section-8 .doc-name{
-    padding-top: 28px;
-    padding-bottom: 260px;
+    padding-top: 50px;
+    padding-bottom: 190px;
     margin-bottom: 0px;
 }
 /*Section 8 end-----------------------------------*/
 /* footer section start---------------------------*/
+@media (max-width:767px){
+    .footer-sec .d-flex{
+        flex-direction: column;
+    }
+}
 .footer-sec{
     background-color: dimgrey;
 }
