@@ -63,6 +63,9 @@
     .footer-sec .d-flex {
         flex-direction: column;
     }
+    .footer-sec .left-align{
+        padding-left: 0px;
+    }
 }
 
 /* media quory end*/
@@ -432,14 +435,16 @@ footer .footer-para {
 .footer-sec .left-align a {
     font-size: 16px;
 }
+footer .flex-dir{
+    display: flex;
+}
 
 .d-flex.links.\.footer-left {
     padding: 25px 50px;
 }
 
 p.footer-para {
-    padding-right: 208px;
-    padding-bottom: 19px;
+    padding-bottom: 20px;
 }
 
 .social-icons {
