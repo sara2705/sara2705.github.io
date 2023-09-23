@@ -46,6 +46,9 @@
         padding-top: 50px;
         padding-bottom: 60px;
     }
+    .section-4 .align-section4{
+        text-align: center !important;
+    }
     .section-4 .sec4-align{
         padding-left: 30px;
         padding-top: 0px !important;
@@ -68,6 +71,7 @@
     .section-5 .align-section5{
         padding-left: 0px !important;
         padding-top: 0px !important;
+        text-align: center !important;
     }
 
     .section-5 .image-align1 {
@@ -102,6 +106,9 @@
     }
     .footer-sec .links li{
         padding-left: 0px !important;
+    }
+    .mob-align-footer{
+        padding-bottom: 20px;
     }
 }
 
@@ -403,11 +410,13 @@ h1 {
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 15px;
+    /* text-align: center; */
 }
 
 .section-7 .align-left-para {
     text-align: left;
     font-weight: normal;
+    /* text-align: center; */
 }
 
 .section-7 img {
@@ -415,6 +424,7 @@ h1 {
     height: 100px;
     padding-top: 38px;
     padding-right: 23px;
+    /* text-align: center; */
 }
 
 .section-7 .bottom-pad {
