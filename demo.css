@@ -6,6 +6,9 @@
         padding-left: 10px;
         padding: 0px;
     }
+    .main-header .links a{
+        font-size:15px;
+    }
 
     .header-button {
         display: none
@@ -35,20 +38,47 @@
     .section-4>.d-flex {
         flex-direction: column;
     }
-
-    .section-4 .image-align {
-        padding-right: 0px;
+    .section-4 .pad-item4{
+        padding: 50px;
     }
-
+    .section-4 .image-align{
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .section-4 .sec4-align{
+        padding-left: 30px;
+        padding-top: 0px !important;
+    }
+    .section-4 h1{
+        padding-left:  0px !important;
+    }
+    .section-4 p{
+        padding-left: 0px !important;
+    }
+    .section-4 .button-all{
+        margin-left: 0px !important;
+    }
     .section-5>.d-flex {
         flex-direction: column;
+    }
+    .section-5 .pad-item5 {
+        padding: 50px;
+    }
+    .section-5 .align-section5{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
     }
 
     .section-5 .image-align1 {
         padding-left: 0px;
+        padding-top: 50px;
     }
 
     .section-6 .pad-item6 {
+        flex-direction: column;
+    }
+    .section-7 .d-flex{
         flex-direction: column;
     }
 
@@ -62,9 +92,16 @@
 
     .footer-sec .d-flex {
         flex-direction: column;
+        padding: 0px;
     }
     .footer-sec .left-align{
-        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer .d-flex .footer-h3{
+        padding: 0px !important;
+    }
+    .footer-sec .links li{
+        padding-left: 0px !important;
     }
 }
 
@@ -244,18 +281,29 @@ h1 {
 }
 
 .section-4 .align-section4 {
-    padding: 100px;
     text-align: left;
 }
-
 .section-4 .image-align>img {
     width: 100%;
+}
+.section-4 h1{
+    padding-left: 100px;
+}
+.section-4 p{
+    padding-left: 100px;
+}
+.section-4 .button-all{
+    margin-left: 100px;
+}
+.section-4 .sec4-align{
+    padding-top:100px;
 }
 
 .image-align {
     width: 100%;
     padding-top: 73px;
     padding-right: 110px;
+    padding-left: 195px;
 }
 
 .section-4 .pad-item4 {
@@ -282,7 +330,7 @@ h1 {
     width: 100%;
     padding-top: 73px;
     padding-left: 100px;
-    /* padding-right: 39px; */
+    padding-right: -3px;
 }
 
 .section-5 .pad-item5 {
@@ -416,6 +464,8 @@ footer .footer-para {
 .footer-sec .links li {
     list-style: none;
     margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .footer-sec .links a {
@@ -426,12 +476,6 @@ footer .footer-para {
 .footer-sec .left-align ul {
     padding-left: 0px;
 }
-
-.footer-sec .left-align {
-    padding-left: 44px;
-    padding-right: 45px;
-}
-
 .footer-sec .left-align a {
     font-size: 16px;
 }
@@ -444,7 +488,7 @@ footer .flex-dir{
 }
 
 p.footer-para {
-    padding-right: 208px;
+    padding-right: 0px;
     padding-bottom: 19px;
 }
 
@@ -462,5 +506,13 @@ p.footer-para {
     font-weight: 20px;
     padding: 7px;
 }
+footer .d-flex {
+    padding-left: 213px;
+}
+
+footer .d-flex .footer-h3 {
+    padding-left: 40px;
+}
 
 /* footer section end---------------------------- */
+
