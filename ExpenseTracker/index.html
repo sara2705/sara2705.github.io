@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+
+    <div class="container">
+        <div class="calendar-container">
+            <div class="header">
+                <button id="prevBtn">◀</button>
+                <h2 id="month-year"></h2>
+                <button id="nextBtn">▶</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-body"></tbody>
+            </table>
+        </div>
+        <div class="expense-container">
+            <h2>Expenses for <span id="selected-date">Select a Date</span></h2>
+            <div class="input-container">
+                <input type="text" id="reason" placeholder="Reason">
+                <input type="number" id="amount" placeholder="Amount Spent">
+                <button id="addExpense">Add Expense</button>
+            </div>
+            
+            <div class="expense-list">
+                <table id="expense-table">
+                    <thead>
+                        <tr>
+                            <th>Reason</th>
+                            <th>Amount</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        
+            <h3>Expense: ₹<span id="total-amount">0</span></h3>
+            <h2>Monthly Expense: ₹<span id="monthly-total">0</span></h2>
+        </div>
+        
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
