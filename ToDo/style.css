@@ -1,0 +1,80 @@
+.main-conatiner
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #FFB8E0;
+}
+.pen
+{
+    background-color: black;
+}
+.trash
+{
+    background-color: red;
+}
+.check
+{
+    background-color: green;
+}
+.taskcontainer
+{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.taskcontainer .tasks
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #FFEDFA;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    height: 50px;
+}
+p{
+    padding-left: 20px;
+    font-size: x-large;
+    width: 400px;
+}
+.add-task
+{
+    width: 100%;
+    padding: 40px;
+    position: relative;
+}
+.add-task input
+{
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: larger;
+    
+}
+input:focus{
+    outline: none;
+}
+ button
+{
+    border: none;
+    font-size: larger;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+.add
+{
+    background-color: #BE5985;
+}
+button:hover{
+    cursor: pointer;
+}
