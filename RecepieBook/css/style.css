@@ -1,0 +1,162 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #F16767;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 450px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+/* Categories */
+#category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#category-container button {
+    background-color: #F16767;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#category-container button:hover {
+    background-color: #F16767;
+}
+
+
+/* Meals Grid */
+#meal-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.meal {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    max-width: 300px; /* Limit meal container size */
+    margin: auto;
+}
+
+.meal:hover {
+    transform: translateY(-5px);
+}
+
+.meal img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.meal h3 {
+    margin: 10px 0;
+}
+
+/* Meal Details Page */
+#meal-details {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#meal-details img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+#meal-details p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+#meal-details a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #F16767;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#meal-details a:hover {
+    background-color: #F16767;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .search-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    input {
+        width: 80%;
+    }
+}
